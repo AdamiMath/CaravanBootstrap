@@ -81,89 +81,62 @@
     </div>
   </nav>
 
-
   <section class="container">
     <div class="my-5 text-center">
-      <span class="h6 d-block">POSSUI ALGUMA DÚVIDA?</span>
-      <h2 class="display-4">Fale Conosoco</h2>
-    </div>
-    <div class="row">
-      <div class="col-lg">
-        <form class="rounded p-3 box-shadow" style="background-color: blanchedalmond;" action="">
-          <div class="form-group">
-            <label for="clienteNome">Nome</label>
-            <input type="text" class="form-control" id="exampleInputEmail1">
+      <span class="h6 ">TUDO DE MELHOR PARA VOCÊ!</span>
+      <h2 class="display-4">Aproveite as Vantagens</h2>
+      <div class="row">
+        <form class="col-6">
+          <div class="form-row">
+            <div class="form-group col-lg-6">
+              <label for="inputNome">Nome</label>
+              <input type="text" class="form-control" id="inputNome" placeholder="Nome Completo">
+            </div>
+
+            <div class="form-group col-lg-6">
+              <label for="inputCPF">CPF</label>
+              <input type="text" class="form-control" id="inputCPF" placeholder="xxx.xxx.xxx-xx">
+            </div>
+
+            <div class="form-group col-lg-6">
+              <label for="inputemail">E-mail</label>
+              <input type="text" class="form-control" id="inputemail" placeholder="example@example.com.br">
+            </div>
+
+            <div class="form-group col-lg-6">
+              <label for="inputpassword">Senha</label>
+              <input type="password" class="form-control" id="inputpassword" placeholder="**********">
+            </div>
+
+            <div class="form-group col-12">
+              <label for="inputendereco">Endereço</label>
+              <input type="password" class="form-control" id="inputendereco" placeholder="Rua,Bairro e numero">
+            </div>
+
+            <div class="form-group col-md-6">
+              <label for="inputcidade">Cidade</label>
+              <input type="password" class="form-control" id="inputcidade">
+            </div>
+
+            <div class="form-group col-md-3">
+              <label for="inputcidade">Estado</label>
+              <select id="inputcidade" class="form-control">
+                <option>Selecione o Estado</option>
+                <option>Rio de Janeiro</option>
+                <option>São Paulo</option>
+                <option>Paraná</option>
+
+              </select>
+            </div>
+
+            <div class="form-group col-md-3">
+              <label for="inputcidade">CEP</label>
+              <input type="password" class="form-control" id="inputcidade" placeholder="xxxxx-xx">
+            </div>
+
           </div>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1">
-          </div>
-          <div class="form-group">
-            <label for="clienteMensagem"></label>
-            <textarea id="clienteMensagem" class="form-control" rows="4"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
         </form>
       </div>
-      <div class="col-lg">
-        <h2 class="h6">NOSSO ENDEREÇO</h2>
-        <img class="img-fluid box-shadown rounded mb-4" src="./img/mapa.png" alt="mapa da localização">
-        <h2 class="h6">DADOS DE CONTATO</h2>
-        <ul class="list-unstyled text-seconday">
-          <li>caravan@caravan.com.br</li>
-          <li>(xx) xxxx-xxxx</li>
-          <li>De Seg. à Sex</li>
-        </ul>
-        <h2 class="h6">REDES SOCIAIS</h2>
-
-      </div>
-    </div>
-  </section>
-
-  <section class="container">
-    <div class="my-5 text-center">
-      <span class="h6 d-block">AINDA ESTÁ COM DÚVIDAS?</span>
-      <h2 class="display-4">Perguntas Frequentes</h2>
-    </div>
-
-    <div class="row justify-content-center">
-      <div class="col-5 mr-5 pt-2" id="perguntasFrequentes" data-children=".pergunta">
-        <a class="lead" data-toggle="collapse" data-parent="#perguntasFrequentes" href="#pgt1" aria-expanded="true" aria-controls="pgt1"> →É possível cancelar a viagem?</a>
-        <div id="pgt1" class="collapse show" role="tabpanel">
-          <p>Você pode cancelar a viagem sem custos até 48 horas antes da data agendada. Para fazer isso, acesse sua conta no site
-            ou no aplicativo da empresa de viagens, encontre sua reserva, e siga as instruções de cancelamento. Certifique-se de verificar os termos
-            e condições da reserva para garantir que está dentro do prazo estipulado.
-            Se tiver dúvidas, entre em contato com o serviço de atendimento ao cliente da empresa de viagens para obter assistência.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="row justify-content-center">
-      <div class="col-5 mr-5 pt-2" id="perguntasFrequentes" data-children=".pergunta">
-        <a class="lead" data-toggle="collapse" data-parent="#perguntasFrequentes" href="#pgt2" aria-expanded="true" aria-controls="pgt2"> →É possível mudar o destino?</a>
-        <div id="pgt2" class="collapse" role="tabpanel">
-          <p class="text-justify">Sim, é possível mudar o destino de sua viagem, sujeito à disponibilidade e políticas da empresa.
-            Para fazer isso, entre em contato com nosso atendimento ao cliente, informe o novo destino desejado e esteja preparado
-            para ajustar datas e itinerários, se necessário. Lembre-se de que podem haver custos adicionais associados à mudança,
-            e é aconselhável entrar em contato o mais cedo possível para discutir suas opções..</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="row justify-content-center text-black">
-      <div class="col-5 mr-5 pt-2" id="perguntasFrequentes" data-children=".pergunta">
-        <a class="lead text-black" data-toggle="collapse" data-parent="#perguntasFrequentes" href="#pgt3" aria-expanded="true" aria-controls="pgt3"> →O que acontece se eu perder o voo?</a>
-        <div id="pgt3" class="collapse" role="tabpanel">
-          <p class="text-justify ">Informe-os imediatamente e siga suas orientações. Consulte as políticas da companhia aérea para reagendamento ou reembolso.
-            Custos adicionais podem ser aplicados.Se tiver um seguro de viagem, verifique se cobre perda de voos.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="text-center mr-5 pt-5">
-      <p class="h6">Tem Alguma dúvida ainda?</p>
-      <a class="btn btn-success btn-lg" href="">Entre em contato conosco pelo nosso WhatsApp</a>
     </div>
   </section>
 
